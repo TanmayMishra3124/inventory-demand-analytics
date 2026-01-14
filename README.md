@@ -71,3 +71,12 @@ The report utilizes the following DAX formulae to derive key insights from the `
 | **Total Profit** | `SUMX(FILTER('Demand/Availability Data', [LOSS/PROFIT] > 0), [LOSS/PROFIT] * [unit_price])` | Revenue generated from met demand. |
 | **Total Loss** | `SUMX(FILTER('Demand/Availability Data', [LOSS/PROFIT] < 0), [LOSS/PROFIT] * [unit_price]) * -1` | Potential revenue lost due to stockouts. |
 
+## Report Preview
+
+**[📄 Download Final PDF Report](docs/reports/Prod_Report_Output.pdf)**
+
+### Analysis Dashboards
+![Report Page 1](docs/screenshots/Report_Page_1.png)
+![Report Page 2](docs/screenshots/Report_Page_2.png)
+
+
