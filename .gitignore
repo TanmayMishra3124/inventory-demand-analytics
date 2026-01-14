@@ -1,0 +1,11 @@
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Power BI
+*.lock
+*.log
+
+# Sensitive Data (Optional, verify before uncommenting)
+# data/raw/*.csv
